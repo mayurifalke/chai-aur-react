@@ -16,6 +16,7 @@ function App() {
     setConvertAmount(amount)
     setamount(convertedAmount)
   }
+  //Object.keys() returns an array whose elements are strings corresponding to the enumerable string-keyed property names found directly upon object
   const options = Object.keys(CurrencyInfo)
   console.log(options)
   const convert = () => {

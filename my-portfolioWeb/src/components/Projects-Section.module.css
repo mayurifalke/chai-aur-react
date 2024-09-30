@@ -1,0 +1,36 @@
+.pcontainer{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 100px;
+}
+.procard{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 30%;
+}
+
+@media (max-width: 600px) {
+  .procard{
+    width: 100%;
+  }
+  .pcontainer{
+    flex-wrap: wrap;
+    margin-left: 0px;
+  }
+} 
+
+.emain{
+  display: flex;
+}
+.econtainer{
+  max-width: 130px;
+  height: 42px;
+  margin-left: 10px;
+}
+.econtainer .epara{
+  padding: 5px;
+  background-color: rgb(83, 80, 80);
+  color: #b907f4;
+  font-weight: 600;
+}
+

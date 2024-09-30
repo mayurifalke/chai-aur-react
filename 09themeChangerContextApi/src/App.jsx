@@ -1,4 +1,4 @@
-
+//project using context api
 import { useEffect, useState } from 'react'
 import { ThemeProvider } from './contexts/Theme'
 import './App.css'

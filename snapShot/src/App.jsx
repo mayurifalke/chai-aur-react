@@ -47,3 +47,7 @@ function App() {
 }
 
 export default App;
+
+/*
+  In this project I have used concept such as States, Hooks,Context API, fetched the data from API,created custom hook to fetch the data of images.
+*/

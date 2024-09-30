@@ -1,0 +1,75 @@
+*{
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  color: white;
+  
+}
+.logo{
+  width: 25px;
+  height: 30px;
+}
+.subHeading{
+  margin: 25px 0px;
+  font-size: 25px;
+  background: -webkit-linear-gradient(#f0b3e4, #9742ed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card-skill{
+    width: 200px;
+}
+.card-image{
+  width: 50%;
+}
+.skill-heading{
+  margin-left: 90px;
+}
+
+/* Default styling for larger screens */
+.skill-container {
+  display: flex;
+}
+
+
+/* Media query for smaller screens (optional) */
+@media (max-width: 973px) {
+  .card-image {
+    width: 20%;
+  }
+}
+@media (max-width: 819px) {
+  .card-image {
+    width: 15%;
+  }
+}
+@media (max-width: 714px) {
+  .card-image {
+    width: 12%;
+    margin: '20px 5px 0 0' ;
+  }
+}
+
+.e-heading{
+  margin: 100px 0 50px 100px;
+}
+
+.emain{
+  display: flex;
+  flex-direction: row;
+}
+.econtainer{
+  max-width: 130px;
+  height: 42px;
+  margin-left: 10px;
+}
+.econtainer .epara{
+  padding: 5px;
+  background-color: rgb(83, 80, 80);
+  color: #b907f4;
+  font-weight: 600;
+}
+
+
+

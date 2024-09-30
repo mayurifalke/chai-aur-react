@@ -1,0 +1,25 @@
+.allContent{
+  display: flex;
+}
+.mainContent{
+  width: 100%;
+}
+.sidebar{
+  min-height: 700px;
+}
+.post-card{
+   margin: 25px;
+}
+
+.rating{
+  height: 25px;
+  margin: 0px 4px;
+}
+.reactions{
+  margin-top: 1rem;
+}
+.post-form{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 80px;
+}

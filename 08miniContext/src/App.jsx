@@ -13,7 +13,7 @@ function App() {
       <h1>React bhai</h1>
       <Login/>
       <Profile/>
-      </UserContextProvider>
+    </UserContextProvider>
   )
 }
 
